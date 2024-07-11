@@ -1,0 +1,28 @@
+{
+  "name": "dev-movies-vite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/icons-material": "^5.16.0",
+    "@mui/material": "^5.16.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-multi-carousel": "^2.8.5",
+    "styled-components": "^6.1.11"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.3.1"
+  }
+}
