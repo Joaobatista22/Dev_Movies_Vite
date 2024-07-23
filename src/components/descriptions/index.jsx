@@ -1,7 +1,7 @@
 import SmartDisplayIcon from '@mui/icons-material/SmartDisplay';
 import * as C from './style';
 
-export const DescriptionMovie = () => {
+export const DescriptionMovie = ({ handleOpenPlayVideo }) => {
 	return (
 		<C.Container>
 			<C.Title>Boku no Hero Academia</C.Title>
@@ -12,7 +12,7 @@ export const DescriptionMovie = () => {
 				muda quando ele encontra o herói número um, All Might, que decide
 				compartilhar seu poder com ele, fazendo de Midoriya seu sucessor.
 			</C.Description>
-			<C.Button>
+			<C.Button onClick={handleOpenPlayVideo}>
 				<SmartDisplayIcon size={24} />
 				Watch Now
 			</C.Button>
